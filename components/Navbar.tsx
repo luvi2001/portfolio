@@ -12,10 +12,10 @@ export default function Navbar() {
             {profile.personal.fullName.split(' ')[0]}
           </Link>
           <div className="flex gap-8">
-            <Link href="#about" className="text-gray-700 hover:text-blue-600 transition">About</Link>
-            <Link href="#projects" className="text-gray-700 hover:text-blue-600 transition">Projects</Link>
-            <Link href="#skills" className="text-gray-700 hover:text-blue-600 transition">Skills</Link>
-            <Link href="#contact" className="text-gray-700 hover:text-blue-600 transition">Contact</Link>
+            <a href="#about" className="text-gray-700 hover:text-blue-600 transition">About</a>
+            <a href="#projects" className="text-gray-700 hover:text-blue-600 transition">Projects</a>
+            <a href="#skills" className="text-gray-700 hover:text-blue-600 transition">Skills</a>
+            <a href="#contact" className="text-gray-700 hover:text-blue-600 transition">Contact</a>
           </div>
         </div>
       </div>

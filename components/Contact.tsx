@@ -29,10 +29,10 @@ export default function Contact() {
           </div>
 
           <div className="flex justify-center gap-8 flex-wrap">
-            <a href={`https://${profile.personal.profileLinks.github}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition font-semibold">
+            <a href="https://github.com/luvi2001" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition font-semibold">
               <span>GitHub</span>
             </a>
-            <a href={`https://${profile.personal.profileLinks.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold">
+            <a href="https://www.linkedin.com/in/luvinson-irudhayarasu-06901b283/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold">
               <span>LinkedIn</span>
             </a>
             <a href={`mailto:${profile.personal.email}`} className="flex items-center gap-2 bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition font-semibold">
