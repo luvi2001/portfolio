@@ -29,7 +29,7 @@ export default function Hero() {
           <a href={`mailto:${profile.personal.email}`} className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
             Get in Touch
           </a>
-          <a href={`https://${profile.personal.profileLinks.github}`} target="_blank" rel="noopener noreferrer" className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+          <a href={profile.personal.profileLinks.github} target="_blank" rel="noopener noreferrer" className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
             GitHub Profile
           </a>
         </div>
